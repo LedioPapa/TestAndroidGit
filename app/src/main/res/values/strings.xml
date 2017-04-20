@@ -3,4 +3,5 @@
     <string name="message">You are awesome!</string>
     <string name="initial_text">Press the button for something cool</string>
     <string name="click_here">Click Here</string>
+    <string name="smiley_image">Smiley image</string>
 </resources>
