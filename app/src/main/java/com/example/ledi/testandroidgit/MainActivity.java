@@ -8,13 +8,16 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button butoni = (Button) findViewById(R.id.butoni);
-    TextView fusha = (TextView) findViewById(R.id.fusha);
+    Button butoni;
+    TextView fusha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        butoni = (Button) findViewById(R.id.butoni);
+        fusha = (TextView) findViewById(R.id.fusha);
 
         butoni.setOnClickListener(new View.OnClickListener() {
             @Override
