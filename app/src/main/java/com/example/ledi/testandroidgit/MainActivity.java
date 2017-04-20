@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         butoni = (Button) findViewById(R.id.butoni);
         fusha = (TextView) findViewById(R.id.fusha);
 
+
         butoni.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
